@@ -5,7 +5,7 @@ package com.chen.callback;
 
 /**
  * @author ChenShi
- * @date   2018Äê3ÔÂ23ÈÕÏÂÎç1:35:49
+ * @date   2018å¹´3æœˆ23æ—¥ä¸‹åˆ1:35:49
  */
 public interface CallBackInterface {
 	public void doSome();

@@ -5,15 +5,15 @@ package com.chen.algorithm;
 
 /**
  * @author ChenShi
- * @date   2018��3��8������5:03:18
+ * @date   2018年3月8日下午5:03:18
  */
 public class WolfQueen {
 	 /**
-     * һ���ж��ٸ��ʺ󣨴�ʱ����Ϊ8�ʺ���8X8���̣������޸Ĵ�ֵ������N�ʺ����⣩
+     * 一共有多少个皇后（此时设置为8皇后在8X8棋盘，可以修改此值来设置N皇后问题）
      */
     int max = 8;
     /**
-     * �����鱣��������һ���ʺ����array[0]�У��ڶ�������array[1]��
+     * 该数组保存结果，第一个皇后摆在array[0]列，第二个摆在array[1]列
      */
     int[] array = new int[max];
  
@@ -22,17 +22,17 @@ public class WolfQueen {
     }
  
     /**
-     * n������ǰ�ǵڼ����ʺ�
+     * n代表当前是第几个皇后
      * @param n
-     * �ʺ�n��array[n]��
+     * 皇后n在array[n]列
      */
     private void check(int n) {
-        //��ֹ���������һ���Ѿ����꣬����ÿ��һ������У���Ƿ��г�ͻ������ֻҪ���һ�а��꣬˵���Ѿ��õ���һ����ȷ��
+        //终止条件是最后一行已经摆完，由于每摆一步都会校验是否有冲突，所以只要最后一行摆完，说明已经得到了一个正确解
         if (n == max) {
             print();
             return;
         }
-        //�ӵ�һ�п�ʼ��ֵ��Ȼ���ж��Ƿ�ͱ��б��б�б���г�ͻ�����OK���ͽ�����һ�е��߼�
+        //从第一列开始放值，然后判断是否和本行本列本斜线有冲突，如果OK，就进入下一行的逻辑
         for (int i = 0; i < max; i++) {
             array[n] = i;
             if (judge(n)) {

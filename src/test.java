@@ -3,8 +3,9 @@
  */
 
 /**
+ * 
  * @author ChenShi
- * @date   2018年3月7日下午5:01:46
+ * @date   2018年4月9日下午10:42:09
  */
 public class test {
 	public static void main(String args[]) {
@@ -16,6 +17,10 @@ public class test {
 			
 		}
 		double[] t = resultData[1];
+		for (double d : t) {
+			System.out.println(d);
+		}
+		
 		
 	}
 }

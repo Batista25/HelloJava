@@ -6,9 +6,9 @@ package com.chen.leet;
 import java.util.Arrays;
 
 /**
- * ÇóÕûÊıÊı×éÄÚÈı¸öÊı³Ë»ıµÄ×î´óÖµ£¬ÊıÖµÈ¡Öµ·¶Î§[-1000,1000]
+ * æ±‚æ•´æ•°æ•°ç»„å†…ä¸‰ä¸ªæ•°ä¹˜ç§¯çš„æœ€å¤§å€¼ï¼Œæ•°å€¼å–å€¼èŒƒå›´[-1000,1000]
  * @author ChenShi
- * @date   2017Äê8ÔÂ14ÈÕÏÂÎç4:30:10
+ * @date   2017å¹´8æœˆ14æ—¥ä¸‹åˆ4:30:10
  */
 public class MaximumProductofThreeNumbers {
 
@@ -22,7 +22,7 @@ public class MaximumProductofThreeNumbers {
 
 	}
 	/**
-	 * ÅÅĞòºóÕÒµ½×îĞ¡µÄÁ½¸öÊıºÍ×î´óµÄÈı¸öÊı
+	 * æ’åºåæ‰¾åˆ°æœ€å°çš„ä¸¤ä¸ªæ•°å’Œæœ€å¤§çš„ä¸‰ä¸ªæ•°
 	 * @param nums
 	 * @return
 	 */
@@ -31,7 +31,7 @@ public class MaximumProductofThreeNumbers {
 		return Math.max(nums[0]*nums[1]*nums[nums.length-1], nums[nums.length-3]*nums[nums.length-2]*nums[nums.length-1]);		 
 	}
 	/**
-	 * Ö»Ğí±éÀúÒ»±éÕÒ³ö×îĞ¡µÄÁ½¸öÊıºÍ×î´óµÄÈı¸öÊı
+	 * åªè®¸éå†ä¸€éæ‰¾å‡ºæœ€å°çš„ä¸¤ä¸ªæ•°å’Œæœ€å¤§çš„ä¸‰ä¸ªæ•°
 	 * @param nums
 	 * @return
 	 */

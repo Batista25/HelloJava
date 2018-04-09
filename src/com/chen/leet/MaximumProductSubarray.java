@@ -5,7 +5,7 @@ package com.chen.leet;
 
 /**
  * @author ChenShi
- * @date   2017Äê8ÔÂ14ÈÕÏÂÎç3:22:17
+ * @date   2017å¹´8æœˆ14ä¸‹åˆ3:22:17
  */
 public class MaximumProductSubarray {
 

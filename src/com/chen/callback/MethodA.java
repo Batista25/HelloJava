@@ -5,17 +5,17 @@ package com.chen.callback;
 
 /**
  * @author ChenShi
- * @date   2018Äê3ÔÂ23ÈÕÏÂÎç2:19:09
+ * @date   2018å¹´3æœˆ23æ—¥ä¸‹åˆ2:19:09
  */
 public class MethodA {
 	
 	 public static void main(String args[]){
 			    MethodB b=new MethodB();
-			    //·µ»ØÖµdÖ»ºÍMethodBÓĞ¹Ø£¬ºÍ½Ó¿ÚÖĞ·½·¨µÄ·µ»ØÖµÎŞ¹Ø
+			    //è¿”å›å€¼dåªå’ŒMethodBæœ‰å…³ï¼Œå’Œæ¥å£ä¸­æ–¹æ³•çš„è¿”å›å€¼æ— å…³
 			    double d=b.getTime(new CallBackInterface()
 			 {
 			        
-			      //ÕÅÈıÊµÏÖÁËÀîËÄ¶¨ÒåµÄ½Ó¿Ú
+			      //å¼ ä¸‰å®ç°äº†æå››å®šä¹‰çš„æ¥å£
 			      public void exectueMethod()
 			 {
 			    	  MethodA methodA =  new MethodA();

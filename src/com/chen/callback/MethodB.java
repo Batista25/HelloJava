@@ -5,7 +5,7 @@ package com.chen.callback;
 
 /**
  * @author ChenShi
- * @date   2018Äê3ÔÂ23ÈÕÏÂÎç2:16:09
+ * @date   2018å¹´3æœˆ23æ—¥ä¸‹åˆ2:16:09
  */
 public class MethodB {
 	public double getTime(CallBackInterface callBack) {
