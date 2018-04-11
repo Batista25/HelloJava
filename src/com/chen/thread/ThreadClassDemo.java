@@ -1,6 +1,6 @@
 package com.chen.thread;
 
-//ÎÄ¼şÃû : ThreadClassDemo.java
+//æ–‡ä»¶å : ThreadClassDemo.java
 public class ThreadClassDemo {
 
 	public static void main(String[] args) {

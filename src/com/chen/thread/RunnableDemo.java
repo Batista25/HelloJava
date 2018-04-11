@@ -14,7 +14,7 @@ public class RunnableDemo implements Runnable {
 		try {
 			for (int i = 4; i > 0; i--) {
 				System.out.println("Thread: " + threadName + ", " + i);
-				// ÈÃÏß³ÌË¯ÃßÒ»»á
+				// è®©çº¿ç¨‹ç¡çœ ä¸€ä¼š
 				Thread.sleep(50);
 			}
 		} catch (InterruptedException e) {

@@ -1,7 +1,7 @@
 package com.chen.thread;
 
-//ÎÄ¼şÃû : GuessANumber.java
-//Í¨¹ı¼Ì³Ğ Thread Àà´´½¨Ïß³Ì
+//æ–‡ä»¶å : GuessANumber.java
+//é€šè¿‡ç»§æ‰¿ Thread ç±»åˆ›å»ºçº¿ç¨‹
 
 public class GuessANumber extends Thread {
 	private int number;

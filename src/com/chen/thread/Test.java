@@ -13,9 +13,9 @@ public class Test implements Runnable {
     public void secondMethod() throws Exception {  
         synchronized (this) {  
             /** 
-             * (休息2S,阻塞线程)
-             * 以验证当前线程对象的机锁被占用时, 
-             * 是否被可以访问其他同步代码块 
+             * (浼戞伅2S,闃诲绾跨▼)
+             * 浠ラ獙璇佸綋鍓嶇嚎绋嬪璞＄殑鏈洪攣琚崰鐢ㄦ椂, 
+             * 鏄惁琚彲浠ヨ闂叾浠栧悓姝ヤ唬鐮佸潡 
              */  
             System.out.println("secondMethod begin " + number);  
             //Thread.sleep(2000);  

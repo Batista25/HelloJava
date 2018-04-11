@@ -1,7 +1,7 @@
 package com.chen.thread;
 
-//ÎÄ¼şÃû : DisplayMessage.java
-//Í¨¹ıÊµÏÖ Runnable ½Ó¿Ú´´½¨Ïß³Ì
+//æ–‡ä»¶å : DisplayMessage.java
+//é€šè¿‡å®ç° Runnable æ¥å£åˆ›å»ºçº¿ç¨‹
 public class DisplayMessage implements Runnable {
 	private String message;
 
