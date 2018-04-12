@@ -1,7 +1,16 @@
 package com.chen.static1;
 
 public class Test2 extends Test1 {
+	static{
+		System.out.println("Test2é™æ€ä»£ç åŒº!");
+	}
+	
+	static int a = 10;
+	
+	public Test2() {
+		System.out.println("Test2æ„é€ æ–¹æ³•ï¼");
+	}
 	public void f1(){     
-	    System.out.println("Test1¸¸Àà·½·¨f1±»¸²¸Ç!"); 
+	    System.out.println("Test1çˆ¶ç±»æ–¹æ³•f1è¢«è¦†ç›–!"); 
 	} 	
 }

@@ -1,10 +1,19 @@
 package com.chen.static1;
 
 public class Test1 {
+	static{
+		System.out.println("Test1闈欐�佷唬鐮佸尯!");
+	}
+	
+	static int value = 10;
+	
+	public Test1() {
+		System.out.println("Test1鏋勯�犳柟娉曪紒");
+	}
 	public void f1() { 
 	    System.out.println("f1"); 
 	} 
-	//无法被子类覆盖的方法 
+	//鏃犳硶琚瓙绫昏鐩栫殑鏂规硶 
 	public static void f2() { 
 	    System.out.println("f2"); 
 	} 
@@ -17,7 +26,10 @@ public class Test1 {
 	
 	public static class A{
 		public static void f7() { 
-		    System.out.println("f2"); 
+		    System.out.println("f7"); 
 		} 
+		public void f8() {
+			System.out.println("f8"); 
+		}
 	}
 }
